@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './parent.component.css'
 })
 export class ParentComponent {
-parentData ="Hello I am Parent Data"
+  parentData: string = "Hello I am Parent Data";
 }
